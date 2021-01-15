@@ -583,6 +583,44 @@ function random(max, min) {
 // console.log(obj1);
 // console.log(obj2);
 
+// Обєкт в обєкті
+// function klon(obj1, obj2, originalLength, positioniter) {
+//    if (positioniter <= originalLength) {
+//        obj2[keyMas[positioniter]] = obj1[keyMas[positioniter]];
+//        positioniter++
+//    }
+//    let cloneLength = Object.keys(obj2).length;
+//    if (cloneLength < originalLength) {
+//        klon(obj1, obj2, originalLength, positioniter)
+//    }
+// }
+
+// let obj1 = {
+//    name: "Taras",
+//    age: 29,
+//    status: true,
+//    id: 1,
+//    brother: {
+//        name: "Nazar",
+//        age: 21,
+//        status: true,
+//        id: 2,
+//    }
+// }
+
+// let obj2 = {};
+// let keyMas = Object.keys(obj1);
+// let length = keyMas.length;
+// let iter = 0;
+
+// klon(obj1, obj2, length, iter);
+// console.log(obj1);
+// console.log(obj2);
+
+// obj1.name = 'Sras'
+// obj1.brother.name = 'Tadas'
+// console.log(obj1);
+// console.log(obj2);
 
 // 3) Flat
 // Вирівняти багаторівневий масив в однорівневий
